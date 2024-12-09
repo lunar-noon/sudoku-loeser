@@ -3,7 +3,7 @@
 Das Ziel dieses Projekts ist die Entwicklung eines Programms, das Sudokus lösen kann. <br />
 
 Das Programm greift dabei direkt auf die Webseite zu, extrahiert die Sudoku-Daten und überträgt diese automatisch in eine eigene Matrix, ohne dass der Benutzer manuelle Eingaben vornehmen muss. 
-Die Daten des Sudokus werden durch die Java-Bibliothek JSoup aus dem HTML-Inhalt der Webseite extrahiert und automatisch in das entsprechende Format übertragen. Es wird dabei nur die Eingabe-Darstellung des Sudokus automatisch ausgefüllt – eine Lösung oder eine Berechnung des Rätsels findet nicht statt. <br />
+Die Daten des Sudokus werden durch die Java-Bibliothek **JSoup** aus dem HTML-Inhalt der Webseite extrahiert und automatisch in das entsprechende Format übertragen. Es wird dabei nur die Eingabe-Darstellung des Sudokus automatisch ausgefüllt – eine Lösung oder eine Berechnung des Rätsels findet nicht statt. <br />
 Die Darstellung kann visuell erfolgen oder über andere Methoden erfolgen, je nachdem, wie das ausgefüllte Sudoku dargestellt oder überprüft werden soll. Das Ziel ist es, die extrahierten Informationen aus der Webseite zu übernehmen und sie automatisch in das Sudoku-Format einzufügen. 
 Durch diesen Ansatz entfällt eine manuelle Eingabe oder Konfiguration durch den Benutzer. Stattdessen wird das Sudoku-Datenset direkt übernommen und aus dem Webseiten-Inhalt übertragen, wodurch der Prozess automatisiert und benutzerfreundlich gestaltet wird. <br />
 
@@ -15,7 +15,7 @@ Eine grafische Benutzeroberfläche wird nicht benötigt; die Ergebnisse werden d
 ### Funktionsweise:
 1. **Webdaten-Abruf:**
      - Das Programm greift automatisch auf die Webseite zu, lädt die HTML-Daten und extrahiert die Sudoku-Daten aus den relevanten Elementen.
-     - Die extrahierten Zahlen werden in eine 9x9-Matrix umgewandelt, wobei leere Felder durch 0 repräsentiert werden.
+     - Die extrahierten Zahlen werden in eine 9x9-Matrix umgewandelt, wobei leere Felder durch `0` repräsentiert werden.
 2. **Algorithmus:**
      - Mithilfe eines Backtracking-Algorithmus wird das Sudoku gelöst. Dabei wird geprüft, ob Zahlen in Zeilen, Spalten und Blöcken korrekt sind, bevor sie eingesetzt werden.
      - Falls das Sudoku keine Lösung besitzt, gibt das Programm eine entsprechende Fehlermeldung aus.
