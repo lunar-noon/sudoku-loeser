@@ -1,9 +1,10 @@
 # Sudoku Löser
 
 Das Ziel dieses Projekts ist die Entwicklung eines Programms, das Sudokus lösen kann. <br />
-Das Programm greift dabei direkt auf die Webseite zu, extrahiert die Sudoku-Daten und überträgt diese automatisch in eine eigene Matrix, ohne dass der Benutzer manuelle Eingaben vornehmen muss. <br />
+
+Das Programm greift dabei direkt auf die Webseite zu, extrahiert die Sudoku-Daten und überträgt diese automatisch in eine eigene Matrix, ohne dass der Benutzer manuelle Eingaben vornehmen muss. 
 Die Daten des Sudokus werden durch die Java-Bibliothek JSoup aus dem HTML-Inhalt der Webseite extrahiert und automatisch in das entsprechende Format übertragen. Es wird dabei nur die Eingabe-Darstellung des Sudokus automatisch ausgefüllt – eine Lösung oder eine Berechnung des Rätsels findet nicht statt. <br />
-Die Darstellung kann visuell erfolgen oder über andere Methoden erfolgen, je nachdem, wie das ausgefüllte Sudoku dargestellt oder überprüft werden soll. Das Ziel ist es, die extrahierten Informationen aus der Webseite zu übernehmen und sie automatisch in das Sudoku-Format einzufügen. <br />
+Die Darstellung kann visuell erfolgen oder über andere Methoden erfolgen, je nachdem, wie das ausgefüllte Sudoku dargestellt oder überprüft werden soll. Das Ziel ist es, die extrahierten Informationen aus der Webseite zu übernehmen und sie automatisch in das Sudoku-Format einzufügen. 
 Durch diesen Ansatz entfällt eine manuelle Eingabe oder Konfiguration durch den Benutzer. Stattdessen wird das Sudoku-Datenset direkt übernommen und aus dem Webseiten-Inhalt übertragen, wodurch der Prozess automatisiert und benutzerfreundlich gestaltet wird. <br />
 
 Das Hauptziel und die Besonderheit des Programms liegen somit darin, die Sudokus automatisch von einer Webseite wie z.B. **usdoku.com** abzurufen, analysieren und lösen zu können. <br />
